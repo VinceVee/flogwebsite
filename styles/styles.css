@@ -1,0 +1,51 @@
+body{
+    background-image: url(../images/Abstractcolour.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    
+}
+
+.one {
+    position: relative;
+    border-top: solid 100px;
+    border-bottom: solid 100px;
+    top: 10em;
+    border: solid;
+    color: white;
+    
+}
+
+
+header{
+    
+    
+}
+
+h1{
+    text-align: center;
+    border: solid;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    color: white;
+    
+}
+
+menu{
+    
+    
+    
+}
+
+main{
+    
+    
+    
+}
+
+footer{
+    
+    
+    
+}
