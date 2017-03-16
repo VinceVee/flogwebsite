@@ -76,7 +76,7 @@ ul{ /** positioning and styling for the menu list **/
    position: absolute;
    height: 7.9%;
    top: 72%;
-   left: 34%;
+   left: 33.5%;
    overflow: hidden;
 }
 
@@ -142,12 +142,6 @@ li :hover{
     background-position: center;
 
 
-}
-
-/** Image Slider **/
-
-img{
-    width: 100%;
 }
 
 
@@ -290,7 +284,6 @@ h1{
     color: black;
 }
 
-
 /** Responsive Breakpoint **/
 /** **/
 
@@ -316,4 +309,3 @@ ul{
 
 }  
 }
-
