@@ -149,14 +149,12 @@ li :hover{
     left: 20%;
     display: block;
     border: dashed;
-    max-width: 500px;
 
 }
 
 .mySlides{
     height: 300px;
     width: 500px;
-    display: none;
     
 }
 
