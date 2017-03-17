@@ -24,20 +24,22 @@ span{ /** styling for the border **/
     box-shadow: 9px 9px 5px black;
     display: block;
     text-align: center;
+    width: 450px;
     color: black;
     position: absolute;
-    top: 50%;
-    left: 36.5%;
+    top: 55%;
+    left: 33%;
 
 
 }
 .homelogo{
     margin: 0;
     padding: 0;
-    padding-top: 15px;
+    padding-top: 5px;
     text-decoration: none;
     /** text-shadow: 2px 2px black; **/
-    font-size: 100px;
+    font-size: 90px;
+    letter-spacing: 20px;
     font-family: "Lucida Console", Charcoal, sans-serif;
 }
 
@@ -74,25 +76,30 @@ ul{ /** positioning and styling for the menu list **/
    margin: 0;
    padding: 0;
    position: absolute;
-   height: 7.9%;
-   top: 72%;
-   left: 33.5%;
+   height: 8%;
+   top: 83%;
+   left: 22%;
    overflow: hidden;
+   
 }
 
 
 li{
-    display: block;
-    margin-right: 20px;
+    display: inline-block;
+    margin-right: 60px;
     border: groove;
     background-color: white;
     float: left;
     padding: 8px 16px;
-    text-decoration: none;
-    font-size: 20px;
+    letter-spacing: 5px;
+    font-size: 19px;
     position: relative;
     animation: dropDown 3s normal;
+    text-decoration: none;
+}
 
+a{ /** the default link which underlines the navigation is set to get rid of the underline**/
+    text-decoration: none;
 }
 
 @keyframes dropDown{
@@ -110,6 +117,21 @@ li{
 li :hover{
     
 }
+
+/** Phoneshot image Styling **/
+
+.phoneimg{
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+
+.phoneshot{
+    height: 350px;
+    width: 340px;
+}
+
 
 
 /***********************************/
@@ -135,7 +157,6 @@ li :hover{
 
 
 #inbetween1, #inbetween2, #inbetween3{
-    min-height: 50%;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -144,19 +165,27 @@ li :hover{
 
 }
 
-.display-container{
-    position: absolute;
-    left: 20%;
-    display: block;
-    border: dashed;
+#middle{
+    position: relative;
+}
+
+.displaycontainer{
+    
 
 }
 
 .mySlides{
-    height: 300px;
-    width: 500px;
-    
+    position: relative;
+    top: 35px;
+    left: 40px;
+    display: block;
+    border: dashed;
+    height: 430px;
+    width: 600px;   
 }
+
+
+
 
 
 /** -Section Styling - **/
@@ -165,6 +194,12 @@ section{
     margin: 0;
     position: absolute;
     color: white;
+}
+
+/** SlideShowTitle Styling **/
+.sstitle{
+    float: right;
+    
 }
 
 
@@ -177,6 +212,7 @@ section{
 /** in between 1 section **/
 
 #inbetween1{
+    min-height: 360px;
     background-image: url(../images/mw1.jpg);
 }
 
@@ -197,27 +233,32 @@ section{
 .aboutus{
     background-color: white;
     position: relative;
+    float: right;
     top: 40px;
     right: 30px;
     height: 250px;
     width: 550px;
-    float: right;
+    margin: 0;
 }
 
 .kickstarter{
     background-color: white;
     position: relative;
     top: 40px;
-    left: 40px;
     height: 250px;
     width: 550px;
-    float: left;
-}
     
+}
+
+.autitle{
+    margin: 0;
+    
+}
 
 h2{
     background-color: red;
     margin: 0;
+    
 }
 
 p{
@@ -226,9 +267,10 @@ p{
 
 
 
+
 /********/
 main{
-    
+   margin: 0; 
 }
 
 #middle{
@@ -236,6 +278,7 @@ main{
 }
 
 #inbetween2{
+    min-height: 360px;
     background-image: url(../images/mw1.jpg);
 }
 
@@ -251,18 +294,30 @@ main{
 
 
 #middlesecond{
-    
-}
-
-#inbetween3{
-    background-image: url(../images/mw1.jpg);
+    margin: 0;
 }
 
 .bgimg3{
     min-height: 75%;
     background-image: url(../images/food4.jpg);
-
+    position: relative;
 }
+.gallery{
+    margin: 0;
+    display: block;
+    background-color: red;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+
+#inbetween3{
+    min-height: 360px;
+    background-image: url(../images/mw1.jpg);
+}
+
 
 
 /**------- Bottom side of the pages -------**/
@@ -272,12 +327,14 @@ footer{
 }
 
 #bottom{
-    
+    margin: 0;
+    position: relative;
+    bottom: 10px;
 }
 
 .bgimg4{
-    min-height: 65%;
-    background-image: url(../images/food6.jpg);
+    min-height: 100%;
+    background-image: url(../images/wide-food-shot-v2.jpg);
 
 }
 
@@ -288,8 +345,9 @@ footer{
     height: 300px;
     width: 400px;
     background-color: white;
+    box-shadow: 5px 5px 5px 5px black;
     position: relative;
-    top: 50px;
+    top: 160px;
     left: 100px;
 }
 
@@ -301,25 +359,27 @@ h1{
 /** Responsive Breakpoint **/
 /** **/
 
+
+
 @media only screen and (max-width: 900px){
     /** Logo **/
-span{
-    position: absolute;
-    top: 50%;
-    left: 13%;
-}
-
-.homelogo{
-    font-size: 50px;
-}
+    span{
+        position: absolute;
+        top: 50%;
+        left: 13%;
+    }
     
-    /** menu **/
+    .homelogo{
+        font-size: 50px;
+    }
+        
+        /** menu **/
+        
+    ul{
+        position: absolute;
+        height: 7.9%;
+        top: 72%;
+        left: 5%;
     
-ul{
-    position: absolute;
-    height: 7.9%;
-    top: 72%;
-    left: 5%;
-
-}  
+    }  
 }
