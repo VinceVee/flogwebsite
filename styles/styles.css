@@ -235,7 +235,7 @@ section{
     position: relative;
     float: right;
     top: 40px;
-    right: 30px;
+    right: 40px;
     height: 250px;
     width: 550px;
     margin: 0;
@@ -245,6 +245,7 @@ section{
     background-color: white;
     position: relative;
     top: 40px;
+    left: 40px;
     height: 250px;
     width: 550px;
     
