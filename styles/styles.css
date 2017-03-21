@@ -26,13 +26,13 @@ span{ /** styling for the border **/
     text-align: center;
     width: 450px;
     color: black;
-    position: absolute;
-    top: 55%;
-    left: 33%;
 
 
 }
 .homelogo{
+    position: absolute;
+    top: 55%;
+    left: 33%;
     margin: 0;
     padding: 0;
     padding-top: 5px;
@@ -77,8 +77,8 @@ ul{ /** positioning and styling for the menu list **/
    padding: 0;
    position: absolute;
    height: 8%;
-   top: 83%;
-   left: 22%;
+   top: 75%;
+   left: 26%;
    overflow: hidden;
    
 }
@@ -86,7 +86,7 @@ ul{ /** positioning and styling for the menu list **/
 
 li{
     display: inline-block;
-    margin-right: 60px;
+    margin-right: 50px;
     border: groove;
     background-color: white;
     float: left;
@@ -100,6 +100,11 @@ li{
 
 a{ /** the default link which underlines the navigation is set to get rid of the underline**/
     text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    cursor: pointer;
 }
 
 @keyframes dropDown{
@@ -176,12 +181,13 @@ li :hover{
 
 .mySlides{
     position: relative;
-    top: 35px;
+    top: 15px;
     left: 40px;
     display: block;
     border: dashed;
     height: 430px;
-    width: 600px;   
+    width: 600px;
+    margin: 20px auto;
 }
 
 
@@ -267,8 +273,6 @@ p{
 }
 
 
-
-
 /********/
 main{
    margin: 0; 
@@ -284,7 +288,7 @@ main{
 }
 
 .bgimg2{
-    min-height: 75%;
+    height: 510px;
     background-image: url(../images/food7.jpg);
 
 }
@@ -318,7 +322,6 @@ main{
     min-height: 360px;
     background-image: url(../images/mw1.jpg);
 }
-
 
 
 /**------- Bottom side of the pages -------**/
@@ -374,8 +377,7 @@ h1{
         font-size: 50px;
     }
         
-        /** menu **/
-        
+    /** menu **/ 
     ul{
         position: absolute;
         height: 7.9%;
