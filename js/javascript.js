@@ -1,4 +1,4 @@
-var myIndex = 0;
+var myIndex = 0; /**  Slideshow Javascript  **/
 displaycontainer();
 
 function displaycontainer() {
@@ -13,4 +13,6 @@ myIndex++;
     setTimeout(displaycontainer, 3000);
 
 }
+
+/** transition images slide in **/
 
