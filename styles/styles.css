@@ -195,7 +195,7 @@ li :hover{
 }
 
 .mySlides1{
-    background-image: url(../images/food1.jpg);
+    background-image: url(../images/food4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -204,7 +204,7 @@ li :hover{
 }
 
 .mySlides2{
-    background-image: url(../images/food2.jpg);
+    background-image: url(../images/food5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -213,7 +213,7 @@ li :hover{
 }
 
 .mySlides3{
-    background-image: url(../images/food3.jpg);
+    background-image: url(../images/food6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -222,7 +222,7 @@ li :hover{
 }
 
 .mySlides4{
-    background-image: url(../images/food4.jpg);
+    background-image: url(../images/food7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -318,9 +318,12 @@ section{
     height: 280px;
     width: 450px;
     margin-right: 20px;
-    float: right;
+    float: right;    
+}
 
-    
+.kslogo{
+    display: block;
+    background-repeat: no-repeat;
 }
 
 .autitle{
