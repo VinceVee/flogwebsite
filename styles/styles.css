@@ -26,9 +26,8 @@ span{ /** styling for the border **/
     text-align: center;
     width: 450px;
     color: black;
-
-
 }
+
 .homelogo{
     position: absolute;
     top: 55%;
@@ -190,7 +189,7 @@ li :hover{
     position: absolute;
     width: 100%;
     height: 100%;
-    box-shadow: 0px 0px 12px 0px white;
+    box-shadow: 0px 0px 20px 0px white;
 
 }
 
@@ -345,6 +344,12 @@ p{
     color: white;
 }
 
+.secondparagraph{
+    position: relative;
+    left: 20px;
+    bottom: 39px;
+}
+
 
 /********/
 main{
@@ -361,7 +366,7 @@ main{
 }
 
 .bgimg2{
-    height: 410px;
+    height: 450px;
     background-image: url(../images/food8.jpg);
 
 }
@@ -411,7 +416,7 @@ footer{
 
 .bgimg4{
     min-height: 100%;
-    background-image: url(../images/wide-food-shot-v2.jpg);
+    background-image: url(../images/dineshot.jpg);
 
 }
 
@@ -435,8 +440,37 @@ h1{
 
 /** Responsive Breakpoint **/
 /** **/
+@media only screen and (max-width: 1920px){
+        /** logo **/
+    .homelogo{
+        position: absolute;
+        top: 55%;
+        left: 28%;
+        font-size: 150px;
+        width: 40%;
+        height: 15%;
+        padding-top: 15px;
+    }
 
+}
 
+@media only screen and (max-width: 1440px){
+        /** logo **/
+    .homelogo{
+        position: absolute;
+        top: 55%;
+        left: 33%;
+            width: 450px;
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
+        text-decoration: none;
+        /** text-shadow: 2px 2px black; **/
+        font-size: 90px;
+        letter-spacing: 20px;
+        font-family: "Lucida Console", Charcoal, sans-serif;
+    }
+}
 
 @media only screen and (max-width: 900px){
     /** Logo **/
