@@ -26,7 +26,7 @@
                 <ul class="menu">
                     <li> <a href="#inbetween1"> Intro </a></li>
                     <li> <a href="#inbetween2"> About us </a></li>
-                    <li> <a href="#middlesecond"> Gallery </a></li>
+                    <li> <a href="#middlesecond"> CTU </a></li>
                     <li> <a href="#bottom"> Contact </a></li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
             <div class="introduction"> 
                 <h2> Welcome -</h2>
                     <p> Foodie, </p> <br>
-                    <p class="secondparagraph"> a place for you to share memories and shoot the wonder of your journey in history and future of foods</p>
+                    <p class="secondparagraph"> a place for you to share memories and <br> shoot the wonder of your journey in <br> history and future of foods</p>
             </div>
         </section>
         
@@ -72,55 +72,93 @@
         </section>
     </div>
     
-    <main id="middlesecond" class="bgimg3">
+    <main id="middlesecond" class="bgimg3"> </main>
+    
+    <div id="inbetween3">
         <div>
-            <h2 class="gallery"> Gallery </h2>
+            <h2 class="ctu"> CTU </h2>
         </div>
         
         <div class="polaroid">
-            <img src="../flogwebsite/images/food1.jpg" alt="food">
-            <div class="container1">
-                <p class="polatext"> test </p>
-            </div>
+            <img class="pimage" src="../flogwebsite/images/food1.jpg" alt="food">
+                <div class="overlay">
+                    <div class="text"> Capture! </div>
+                </div>
+                    
+                <div class="container1">
+                    <p class="polatext"> your food! </p>
+                </div>
         </div>
         
-                <div class="polaroid">
-            <img src="../flogwebsite/images/food3.jpg" alt="food">
-            <div class="container2">
-                <p class="polatext"> test </p>
-            </div>
+        <div class="polaroid">
+            <img class="pimage" src="../flogwebsite/images/food3.jpg" alt="food">
+                <div class="overlay">
+                    <div class="text"> Take! </div>
+                </div>
+                
+                <div class="container2">
+                    <p class="polatext"> a picture! </p>
+                </div>
         </div>
                 
         <div class="polaroid">
-            <img src="../flogwebsite/images/food2.jpg" alt="food">
-            <div class="container3">
-                <p class="polatext"> test </p>
-            </div>
+            <img class="pimage" src="../flogwebsite/images/food2.jpg" alt="food">
+                <div class="overlay">
+                    <div class="text"> Upload! </div>
+                </div>
+                
+                <div class="container3">
+                    <p class="polatext"> Simple! </p>
+                </div>
         </div>
-    </main>
+    </div>
     
-    <div id="inbetween3">
+    <main id="middlesecond" class="bgimg4"> </main>
+    
+    <div id="inbetween4">
         <section class="content3">
             <div class="kickstarter">
                 <h2> Kickstarter </h2>
                     <p> Fund into our project to explore a new modern world of reviewing and rate from restaurant, to yours or other foodie explorer </p>
             </div>
             
-            <div class="content">
+            <div class="content4">
                 <img class="kslogo" src="..\flogwebsite\images\kickstarter.png" alt=kslogo">
             </div>
 
         </section>
     </div>
     
-    <footer id="bottom" class="bgimg4">
+    <footer id="bottom" class="bgimg5">
         <div class="contactinfo"> 
             <h1> Contact </h1>
-            <p> testing </p>
+            <p> Email: contact@foodie.com </p>
+            <p> Facebook: /Foodie </p>
+            <p> Linkedin: /Foodie </p>
         </div>
+    <!-- form application -->     
+    <form id="get-name" action="#" method="post">
+        
+    <h2><span id="my-email" class="email"></span></h2>
+
+    <br>    
+        <label for="user-name"> Email : </label> 
+        <input class="inputbox2" type="text" id="user-email" placeholder="Your email">
+    <br>
+    <br>
+    
+    <!-- Button submittion -->
+    <!-- attempted but unfortunately the submission button does not work or clear due to time -->
+    <div class="submission"> 
+        <input type="submit">
+        <input type="reset" value="Clear">
+    </div>
+    </form>
+        
     </footer>
     
 <script src="js/javascript.js"></script>
+<script src="js/localstorage.js"></script>
 
 </body>
     
